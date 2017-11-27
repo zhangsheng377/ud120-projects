@@ -22,8 +22,7 @@ sys.path.append("../final_project/")
 from poi_email_addresses import poiEmails
 
 sys.path.append("../tools/")
-from feature_format import featureFormat
-from feature_format import targetFeatureSplit
+from feature_format import featureFormat, targetFeatureSplit
 
 if __name__ == "__main__":
     enron_data = pickle.load(
